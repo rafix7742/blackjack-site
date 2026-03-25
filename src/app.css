@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+:root {
+	--bg-primary: #0f172a;
+	--bg-secondary: #1e293b;
+	--bg-tertiary: #334155;
+	--text-primary: #f1f5f9;
+	--text-secondary: #94a3b8;
+	--accent-green: #22c55e;
+	--accent-red: #ef4444;
+	--accent-blue: #3b82f6;
+	--accent-yellow: #eab308;
+	--accent-purple: #a855f7;
+	--card-red: #dc2626;
+	--card-black: #1e293b;
+}
+
+body {
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	margin: 0;
+	min-height: 100vh;
+}
+
+/* Presentation-optimized: larger base font */
+html {
+	font-size: 18px;
+}
+
+@media (min-width: 1920px) {
+	html {
+		font-size: 20px;
+	}
+}
